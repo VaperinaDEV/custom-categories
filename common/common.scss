@@ -10,12 +10,18 @@ body.category-vaperina-live {
   background-position: center center;
   background-size: contain;
 }
+body.category-jobban-vagyok {
+  background: url(https://vaperina-assets-02-cdn.b-cdn.net/assets/category/jobban-vagyok/jobban-vagyok-bg.png), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.97) 100%, rgba(var(--primary-rgb), 0.97) 100%),linear-gradient(0deg, #000 0%, #000 100%);
+  background-position: center center;
+  background-size: contain;
+}
 
 
 // Categories Transparency
 
 .category-youtuber,
-.category-vaperina-live {
+.category-vaperina-live,
+.category-jobban-vagyok {
   .navigation-container {
   background-image: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 100%), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.8) 100%, rgba(var(--secondary-rgb), 0.95) 100%) !important;
   }
@@ -32,6 +38,8 @@ body.category-vaperina-live {
 
 
 // Custom Create Topic Button
+
+// Youtuber
 
 .category-youtuber {
   #create-topic {
@@ -54,6 +62,29 @@ body.category-vaperina-live {
   }
 }
 
+// Jobban Vagyok
+
+.category-jobban-vagyok {
+  #create-topic {
+  background: #BF1E2E;
+  &:hover {
+    background: #9C1422;
+  }
+  .d-icon {
+    display: none;
+  }
+  span {
+    &:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f004";
+    display: inline-block;
+    padding-right: 5px;
+    font-weight: 900;
+    }
+  }
+  }
+}
+
 // Custom Category Header Banner Icon and Title
 
 .category-list {
@@ -63,7 +94,8 @@ body.category-vaperina-live {
 }
 
 .category-banner-youtuber,
-.category-banner-vaperina-live {
+.category-banner-vaperina-live,
+.category-banner-jobban-vagyok {
   .category-title-contents {
     color: var(--secondary, $secondary);
   }
