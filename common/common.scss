@@ -84,20 +84,3 @@ body.category-jobban-vagyok {
   }
   }
 }
-
-// Custom Category Header Banner Icon and Title
-
-.category-list {
-  .category-icon {
-    color: var(--primary-high, $primary-high) !important;
-  }
-}
-
-.category-banner-youtuber,
-.category-banner-vaperina-live,
-.category-banner-jobban-vagyok {
-  .category-title-contents {
-    color: var(--secondary, $secondary);
-  }
-}
-
