@@ -1,17 +1,17 @@
 // Custom Categories Background
 
 body.category-youtuber {
-  background: url(https://vaperina-assets-02-cdn.b-cdn.net/assets/category/youtuber/youtube-bg.png), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.97) 100%, rgba(var(--primary-rgb), 0.97) 100%),linear-gradient(0deg, #000 0%, #000 100%);
+  background: url(https://vaperina-assets-02-cdn.b-cdn.net/assets/category/youtuber/youtube-bg.png), var(--vaperina-bg);
   background-position: center center;
   background-size: auto;
 }
 body.category-vaperina-live {
-  background: url(https://vaperina-assets-02-cdn.b-cdn.net/assets/category/vaperina-live/vaperina-live-bg.png), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.97) 100%, rgba(var(--primary-rgb), 0.97) 100%),linear-gradient(0deg, #000 0%, #000 100%);
+  background: url(https://vaperina-assets-02-cdn.b-cdn.net/assets/category/vaperina-live/vaperina-live-bg.png), var(--vaperina-bg);
   background-position: center center;
   background-size: auto;
 }
 body.category-jobban-vagyok {
-  background: url(https://vaperina-assets-02-cdn.b-cdn.net/assets/category/jobban-vagyok/jobban-vagyok-bg.png), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.97) 100%, rgba(var(--primary-rgb), 0.97) 100%),linear-gradient(0deg, #000 0%, #000 100%);
+  background: url(https://vaperina-assets-02-cdn.b-cdn.net/assets/category/jobban-vagyok/jobban-vagyok-bg.png), var(--vaperina-bg);
   background-position: center center;
   background-size: auto;
 }
