@@ -64,3 +64,26 @@ body.category-jobban-vagyok {
     }
   }
 }
+
+// Utazó Vape
+
+.category-utazo-vape {
+  #create-topic {
+    background: #1f7fdd;
+    &:hover {
+      background: #1a74d5;
+    }
+    .d-icon {
+      display: none;
+    }
+    span {
+      &:before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f48b";
+        display: inline-block;
+        padding-right: 5px;
+        font-weight: 900;
+      }
+    }
+  }
+}
