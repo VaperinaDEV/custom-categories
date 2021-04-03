@@ -1,30 +1,31 @@
+
 // Custom Categories Background
+
+body.category-youtuber,
+body.category-vaperina-live,
+body.category-jobban-vagyok,
+body.category-utazo-vape {
+  background-position: center center;
+  background-size: auto;
+}
 
 body.category-youtuber {
   background: url(https://vaperina-assets-02-cdn.b-cdn.net/assets/category/youtuber/youtube-bg.png), var(--vaperina-bg);
-  background-position: center center;
-  background-size: auto;
 }
+
 body.category-vaperina-live {
   background: url(https://vaperina-assets-02-cdn.b-cdn.net/assets/category/vaperina-live/vaperina-live-bg.png), var(--vaperina-bg);
-  background-position: center center;
-  background-size: auto;
 }
+
 body.category-jobban-vagyok {
   background: url(https://vaperina-assets-02-cdn.b-cdn.net/assets/category/jobban-vagyok/jobban-vagyok-bg.png), var(--vaperina-bg);
-  background-position: center center;
-  background-size: auto;
 }
+
 body.category-utazo-vape {
   background: url(https://vaperina-assets-02-cdn.b-cdn.net/assets/category/utazo-vape/utazo-vapek-bg.png), var(--vaperina-bg);
-  background-position: center center;
-  background-size: auto;
 }
 
-
 // Custom Create Topic Button
-
-// Youtuber
 
 .category-youtuber {
   #create-topic {
@@ -35,8 +36,6 @@ body.category-utazo-vape {
   }
 }
 
-// Jobban Vagyok
-
 .category-jobban-vagyok {
   #create-topic {
     background: #BF1E2E;
@@ -45,8 +44,6 @@ body.category-utazo-vape {
     }
   }
 }
-
-// Utazó Vape
 
 .category-utazo-vape {
   #create-topic {
